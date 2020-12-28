@@ -27,8 +27,8 @@ describe('learn axios and weather api', function() {
 
         let store = storeDictionary['鬍鬚張台北華山店'];
         expect(store).not.toBeNull();
-        expect(store).badget_code = 'B001550';
-        expect(store).addr = '臺北市中正區忠孝東路1段150號';
-        expect(store).business_week = '星期一，星期二，星期三，星期四，星期五，星期六，星期日';
+        expect(store.badge_code).toBe('B001550');
+        expect(store.addr).toBe('臺北市中正區忠孝東路1段150號');
+        expect(store.business_week).toBe('星期一，星期二，星期三，星期四，星期五，星期六，星期日');
     })
 })
